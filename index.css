@@ -38,15 +38,29 @@ header .navicon{
 main{
     color: white;
     background-color: black;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
 }
+
+main .poster-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-around;
+    max-width: 70rem;
+}
+
+main .poster-card{
+    padding: 1rem;
+    width: 20rem;
+}
+
 
 main .poster-card h2{
     margin: 0;
 }
 
-main .poster-card{
-    width: 20rem;
-}
 
 main .poster-card img{
     width: 20rem;
