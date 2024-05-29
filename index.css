@@ -40,7 +40,7 @@ main{
     background-color: black;
     display: flex;
     flex-direction: column;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 
 main .poster-list{
@@ -53,7 +53,7 @@ main .poster-list{
 
 main .poster-card{
     padding: 3rem 1rem;
-    width: 20rem;
+    max-width: 20rem;
     height: 35rem;
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@ main .poster-card p{
 
 
 main .poster-card img{
-    width: 20rem;
+    max-width: 20rem;
 }
 
 main .poster-card .buy-button{
@@ -83,6 +83,38 @@ main .poster-card .buy-button{
     background-color: rgb(232, 63, 87);
     width: fit-content;
     align-self: flex-start;
+}
+
+main .poster-list.highlight-list{
+    width: 100%;
+    align-items: center;
+}
+
+main .poster-card.highlight{
+    padding: 0;
+    width: 100%;
+    max-width: 32rem;
+    min-height: 50rem;
+    background-color: white;
+    color: black;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+main .poster-card.highlight h2, main .poster-card.highlight p{
+    padding: 1rem 1rem 0 1rem;
+    margin: 0;
+}
+
+main .poster-card.highlight img{
+    max-width: 32rem;
+}
+
+main .poster-card.highlight .buy-button{
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.6rem 1.5rem;
+    color: white;
 }
 
 footer{
