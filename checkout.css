@@ -1,0 +1,18 @@
+.checkout-container{
+    width: 95%;
+    max-width: 52rem;
+    align-self: center;
+}
+
+.checkout-container h2{
+    margin-bottom: 0;
+}
+
+.checkout-container .poster-card.highlight{
+    height: fit-content;
+    min-height: fit-content;
+}
+
+.checkout-container .poster-card.highlight{
+    max-width: 25rem;
+}
